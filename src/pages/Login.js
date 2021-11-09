@@ -52,7 +52,7 @@ const Login = () => {
 
                     <h5>Password</h5>
                     <input
-                        type="text"
+                        type="password"
                         value={password}
                         onChange={e => setPassword(e.target.value)}
                     />
