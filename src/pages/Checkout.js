@@ -5,7 +5,7 @@ import { useGlobalContext } from '../context';
 import './Checkout.css'
 
 const Checkout = () => {
-    const { cart } = useGlobalContext()
+    const { cart,user } = useGlobalContext()
     return (
         <div className='checkout'>
             <div className='checkout_left'>
@@ -20,7 +20,7 @@ const Checkout = () => {
                     </div>
                 ) : (
                     <div>
-                        <h3>Hello Guys</h3>
+                        <h3>Hello {!user ? 'Guest' : user.email}</h3>
                         <h2 className='checkout_title'>Your Shopping Product.</h2>
                         {cart.map((item) => (
                             <CheckProduct
