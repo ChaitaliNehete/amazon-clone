@@ -1,8 +1,16 @@
-<<<<<<< HEAD
-# Project Demo:--
-https://brave-wescoff-2e90ab.netlify.app/
-=======
-#Project Demo:--
+# Project Demo
 https://brave-wescoff-2e90ab.netlify.app/
 
->>>>>>> 3a46cdd21ea35e4416f75398b451ff07c8320357
+
+## Installation packages
+- npx create-react-app amazon-clone
+- npm install react-router-dom@5.3.0
+- npm install react-icons
+- npm install react-currency-format
+- npm install firebase
+- npm i firebase-tools
+
+
+## Deatils
+
+> Allow User to add product in cart and remove from cart, also user can SignIn/SignUp using Email and Password.
