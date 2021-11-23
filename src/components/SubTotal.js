@@ -21,7 +21,7 @@ const SubTotal = () => {
                     </>
                 )}
                 decimalScale={2}
-                value={getTotal(cart)} // Part of the homework
+                value={getTotal(cart)}
                 displayType={"text"}
                 thousandSeparator={true}
                 prefix={"$"}
